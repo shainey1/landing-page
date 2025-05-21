@@ -20,8 +20,9 @@ li {
 }
 
 .hero-container {
-    padding: 80px;
+    padding: 80px 15%;
     background-color: #1F2937;
+
 }
 
 .hero-block {
@@ -29,6 +30,7 @@ li {
     width: 100%;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
 }
 
 .left-block {
@@ -37,7 +39,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-right: 20px;
+    padding-right: 60px;
     justify-content: space-evenly;
     gap: 20px;
 }
@@ -222,7 +224,7 @@ a {
 
 .header-links {
     display: flex;
-    padding: 20px 80px;
+    padding: 20px 15%;
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
